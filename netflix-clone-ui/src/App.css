@@ -1,0 +1,85 @@
+:root {
+  --primary-black: #000000;
+  --primary-red: #e50914;
+  --primary-white: #ffffff;
+
+  --secondary-red-100: #eb3942;
+  --secondary-red-200: #c11119;
+  --secondary-red-300: #f50723;
+  --secondary-blue-100: #0071eb;
+  --secondary-blue-200: #338ef4;
+  --secondary-blue-300: #54b9c5;
+  --secondary-green: #46d369;
+
+  --grey-10: #e5e5e5;
+  --grey-20: #dcdcdc;
+  --grey-25: #d2d2d2;
+  --grey-50: #bcbcbcbc;
+  --grey-100: #b3b3b3b3;
+  --grey-150: #97979797;
+  --grey-200: #808080;
+  --grey-250: #777777;
+  --grey-300T40: RGB (109, 109, 110, 40%);
+  --grey-300T40: RGB (109, 109, 110, 70%);
+  --grey-350: #545454;
+  --grey-400: #414141;
+  --grey-450: #404040;
+  --grey-500: #3a3a3a;
+  --grey-550: #363636;
+  --grey-600T60: RGB (51, 51, 51, 60%);
+  --grey-600: #333333;
+  --grey-650: #2f2f2f;
+  --grey-700: #2a2a2a;
+  --grey-750: #262626;
+  --grey-800: #232323;
+  --grey-850: #181818;
+  --grey-900: #141414;
+
+  --transparentWhite-15: RGB (255, 255, 255, 15%);
+  --transparentWhite-20: RGB (255, 255, 255, 20%);
+  --transparentWhite-30: RGB (255, 255, 255, 30%);
+  --transparentWhite-35: RGB (255, 255, 255, 35%);
+  --transparentWhite-50: RGB (255, 255, 255, 50%);
+  --transparentWhite-70: RGB (255, 255, 255, 70%);
+
+  --transparentBlack-30: RGB(0, 0, 0, 30%);
+  --transparentBlack-60: RGB(0, 0, 0, 60%);
+  --transparentBlack-90: RGB(0, 0, 0, 90%);
+}
+
+.App {
+  /* padding: 10px; */
+  text-align: center;
+  background-color: var(--primary-black);
+  /* background-color: var(--grey-150); */
+  color: var(--primary-white);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.app-red-btn {
+  border-radius: 4px;
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  border: none;
+}
+
+.language-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 131px;
+  height: 32px;
+  padding-left: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--primary-white);
+  border: none;
+}
+
+.language-option {
+  display: none;
+}

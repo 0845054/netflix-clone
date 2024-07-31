@@ -1,0 +1,144 @@
+.landing-container {
+  width: fill;
+  height: fit-content;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero1-container {
+  /* position: relative; */
+  width: fill;
+  height: fit-content;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.hero1-img {
+  width: fill;
+  height: fill;
+  object-fit: cover;
+  opacity: 0.3;
+  -webkit-mask: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.hero1-info {
+  position: absolute;
+  padding-top: 280px;
+  color: var(--white-color);
+}
+
+.hero1-email-container {
+  height: 56px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.email-input {
+  height: fill;
+  width: 300px;
+  border: solid;
+  border-radius: 8px;
+  border-color: var(--grey-200);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  padding-left: 16px;
+  color: var(--grey-50);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero1-email-btn {
+  height: fill;
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  padding: 0px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero1-email-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary-red-200);
+}
+
+.hero2-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 4, 19, 0.6),
+    rgb(14, 27, 79, 0.6),
+    rgb(229, 9, 20, 0.6),
+    rgb(14, 27, 79, 0.6),
+    rgba(0, 4, 19, 0.6)
+  );
+}
+
+.hero2-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: start;
+  justify-content: center;
+}
+
+.hero2-link {
+  color: var(--secondary-blue-200);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero2-link:hover {
+  cursor: pointer;
+  color: var(--secondary-blue-100);
+}
+
+.hero3-container {
+  margin: 0px 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero3-card {
+  width: fit-content;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.hero3-right {
+  order: 2;
+}
+
+.hero3-left {
+  order: 1;
+}
+
+.hero3-card-info {
+  width: 400px;
+}
